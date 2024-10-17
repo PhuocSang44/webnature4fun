@@ -1,0 +1,52 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: url('nature.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for readability */
+    height: 100%;
+}
+
+/* Header styling */
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
